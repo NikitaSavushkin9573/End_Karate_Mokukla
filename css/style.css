@@ -87,10 +87,10 @@ p {
 }
 
 .logo{
-	max-width: 12%;
+	max-width: 15%;
 	position:absolute;
-left:0;
-top:0;
+left:auto;
+top: -14px;;
 
 }
 
@@ -103,7 +103,7 @@ top:0;
 
 
 img {
-	max-width: 100%;
+	max-width: 70%;
 }
 
 input:focus,
@@ -180,7 +180,7 @@ ol {
 	font-family: "Oswald", sans-serif;
 	font-weight: 600;
 	padding: 0 12px;
-	color: #ffffff;
+	color: coral;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	text-align: center;
