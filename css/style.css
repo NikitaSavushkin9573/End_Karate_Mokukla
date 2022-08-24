@@ -87,7 +87,7 @@ p {
 }
 
 .logo{
-	max-width: 11%;
+	max-width: 10%;
 	position:absolute;
 left:auto;
 top: -14px;;
@@ -95,16 +95,17 @@ top: -14px;;
 }
 
 .f-logo {
-	max-width: 50%;
+	max-width: 100%;
 	position:absolute;
 left:0;
-top:0;
+top:-15px;;
 }
 
 
 img {
 	max-width: 70%;
 }
+
 
 input:focus,
 select:focus,
@@ -527,10 +528,10 @@ ol {
   Hero Section
 -----------------------*/
 
-.hero-items .owl-item.active .single-hero-item .hero-text h2,
+
 .hero-items .owl-item.active .single-hero-item .hero-text h1,
 .hero-items .owl-item.active .single-hero-item .hero-text .primary-btn {
-	top: 0;
+	top: -290px;
 	opacity: 1;
 }
 
@@ -631,8 +632,8 @@ ol {
 	color: coral;
 	text-transform: uppercase;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 60px;
-	margin-bottom: 4px;
+	font-size: 30px;
+	margin-bottom: 600px;
 	position: relative;
 	top: 50px;
 	opacity: 0;
@@ -640,18 +641,18 @@ ol {
 
 .single-hero-item .hero-text h1 {
 	color: coral;
-	font-size: 90px;
-	font-weight: 600;
 	text-transform: uppercase;
-	margin-bottom: 46px;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 45px;
+	margin-bottom: 150px;
 	position: relative;
-	top: 50px;
-	opacity: 0;
+	top: -500px;
+	opacity: -1000;
 }
 
 .single-hero-item .hero-text .primary-btn {
 	position: relative;
-	top: 50px;
+	top: 3;
 	opacity: 0;
 }
 
@@ -2924,7 +2925,7 @@ ol {
 
 /* Tablet Device : 768px */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 375px) and (max-width: 667px) {
 	.header-section {
 		padding-left: 0;
 		padding-right: 0;
@@ -2933,7 +2934,7 @@ ol {
 		text-align: right;
 	}
 	.nav-menu .mainmenu ul li {
-		margin-right: 25px;
+		margin-right: 40px;
 	}
 	.nav-menu .mainmenu ul li .dropdown {
 		left: auto;
