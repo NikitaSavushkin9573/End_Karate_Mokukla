@@ -38,7 +38,7 @@ body {
 	font-family: "Nunito Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-font-smoothing: antialiased;
-	background-color: #000;
+	background-color:#d6b193 ;
 }
 
 h1,
@@ -48,7 +48,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: #111111;
+	color: #fff;
 	font-weight: 400;
 	font-family: "Oswald", sans-serif;
 }
@@ -85,7 +85,7 @@ p {
 	line-height: 24px;
 	margin: 0 0 15px 0;
 }
-
+  
 .logo{
 	max-width: 10%;
 	position:absolute;
@@ -101,6 +101,10 @@ left:0;
 top:-15px;;
 }
 
+
+.Karate_istoria_img{
+	float: right;
+}
 
 img {
 	max-width: 70%;
