@@ -196,7 +196,7 @@ ol {
 	font-family: "Oswald", sans-serif;
 	font-weight: 600;
 	padding: 0 12px;
-	color: coral;
+	color: #ffffff;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	text-align: center;
@@ -1075,10 +1075,10 @@ ol {
 .single-price-plan {
 	background: #ffffff;
 	text-align: center;
-	padding: 45px 0 50px;
+	padding: 25px 0 15px;
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 30px;
+	margin-bottom: 4px;
 }
 
 .single-price-plan h4 {
@@ -1147,17 +1147,6 @@ ol {
 	opacity: 1;
 }
 
-.single-price-plan .tic-text {
-	width: 160px;
-	height: 40px;
-	background: #e4381C;
-	position: absolute;
-	right: -67px;
-	top: -5px;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
 
 .single-price-plan .tic-text i {
 	position: absolute;
@@ -2406,7 +2395,7 @@ ol {
 	font-size: 13px;
 	color: #252525;
 	text-transform: uppercase;
-	background: #ffffff;
+	background: coral;
 	padding: 5px 20px 4px;
 	border: 1px solid #000000;
 	margin-right: 10px;
@@ -2935,7 +2924,7 @@ ol {
 	margin: 0px;
 	margin-bottom: 30px;
 	margin-left: 10px;
-	width: 50%;
+	width: 60%;
 }
 .f-logo {
 	float: left;
@@ -2943,7 +2932,7 @@ ol {
 		margin: -px;
 		margin-bottom: 30px;
 		margin-left: 10px;
-		width: 50%;
+		width: 200%;
 }
 
 .p-slide1{
@@ -2967,6 +2956,9 @@ ol {
 /* Medium Device : 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+
 	.header-section {
 		padding-left: 0;
 		padding-right: 0;
