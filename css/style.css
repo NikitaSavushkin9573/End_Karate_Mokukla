@@ -34,14 +34,39 @@
 
 html,
 body {
+	width: 100%;
 	height: 100%;
 	font-family: "Nunito Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-font-smoothing: antialiased;
-	background-color:#FFDAB9 ;
+	  
 	
 		
 	
+}
+
+.belt{
+	width: 30%;
+	height: 30%;
+	margin-left: 35%;
+	margin-top: 15%;
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 h1,
@@ -89,7 +114,6 @@ p {
 	margin: 0 0 15px 0;
 }
   
-
 
 .logo{
 	max-width: 11%;
@@ -220,6 +244,68 @@ ol {
 	z-index: 1;
 	border-radius: 4px;
 }
+
+
+.custom-btn {
+	width: 130px;
+	height: 40px;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px 25px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	 box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+	 7px 7px 20px 0px rgba(0,0,0,.1),
+	 4px 4px 5px 0px rgba(0,0,0,.1);
+	outline: none;
+  }
+  .btn-5 {
+	width: 130px;
+	height: 40px;
+	line-height: 42px;
+	padding: 0;
+	border: none;
+	background: rgb(255,27,0);
+  background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+  }
+  .btn-5:hover {
+	color: #f0094a;
+	background: transparent;
+	 box-shadow:none;
+  }
+  .btn-5:before,
+  .btn-5:after{
+	content:'';
+	position:absolute;
+	top:0;
+	right:0;
+	height:2px;
+	width:0;
+	background: #f0094a;
+	box-shadow:
+	 -1px -1px 5px 0px #fff,
+	 7px 7px 20px 0px #0003,
+	 4px 4px 5px 0px #0002;
+	transition:400ms ease all;
+  }
+  .btn-5:after{
+	right:inherit;
+	top:inherit;
+	left:0;
+	bottom:0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after{
+	width:100%;
+	transition:800ms ease all;
+  }
+
+
 
 .primary-btn:after {
 	color: #fff;
@@ -1731,14 +1817,14 @@ ol {
 .breadcrumb-text h2 {
 	font-size: 48px;
 	font-weight: 500;
-	color: #ffffff;
+	color: coral;
 	text-transform: uppercase;
 	margin-bottom: 14px;
 }
 
 .breadcrumb-text .breadcrumb-controls a {
 	font-size: 16px;
-	color: #ffffff;
+	color: coral;
 	margin-right: 15px;
 	position: relative;
 }
@@ -1750,7 +1836,7 @@ ol {
 	content: "";
 	font-family: "FontAwesome";
 	font-size: 16px;
-	color: #ffffff;
+	color: coral;
 }
 
 .breadcrumb-text .breadcrumb-controls a i {
@@ -1759,7 +1845,7 @@ ol {
 
 .breadcrumb-text .breadcrumb-controls span {
 	font-size: 16px;
-	color: #ffffff;
+	color: coral;
 }
 
 /*---------------------
@@ -2921,7 +3007,7 @@ ol {
 .logo-dark {
 	float: left;
 	text-align: center;
-	margin: 0px;
+	margin: 5px;
 	margin-bottom: 30px;
 	margin-left: 10px;
 	width: 48%;
@@ -2932,7 +3018,7 @@ ol {
 		margin: -px;
 		margin-bottom: 30px;
 		margin-left: 10px;
-		width: 200%;
+		width: 75%;
 }
 
 .p-slide1{
@@ -2955,7 +3041,7 @@ ol {
 
 /* Medium Device : 1200px */
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1000px) {
 
 
 
@@ -2992,7 +3078,7 @@ ol {
 	color: coral;
 	font-weight: 400;
 	line-height: 40px;
-	margin: 0 0 -800px 0;
+	margin: 0 0 800px 0;
 }
   
 .p-slide2{
@@ -3001,7 +3087,7 @@ ol {
 	color: coral;
 	font-weight: 400;
 	line-height: 40px;
-	margin: 0 0 -800px 0;
+	margin: 0 0 800px 0;
 }
 
 /* Tablet Device : 768px */
@@ -3018,7 +3104,7 @@ ol {
 	.logo-dark {
 		float: left;
 		text-align: center;
-		margin: -px;
+		margin: 10px;
 		margin-bottom: 30px;
 		margin-left: 10px;
 		width: 50%;
@@ -3255,7 +3341,7 @@ ol {
 		color: coral;
 		font-weight: 400;
 		line-height: 40px;
-		margin: 0 0 -800px 0;
+		margin: 0 0 -572px 0;
 	}
 	  
 	.p-slide2{
@@ -3264,7 +3350,7 @@ ol {
 		color: coral;
 		font-weight: 400;
 		line-height: 40px;
-		margin: 0 0 -800px 0;
+		margin: 0 0 -100px 0;
 	}
 
 	.slicknav_btn {
