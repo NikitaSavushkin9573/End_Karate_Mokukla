@@ -3101,6 +3101,7 @@ ol {
 	float: left;
 	text-align: center;
 	margin: 5px;
+	margin-top: 10px;
 	margin-bottom: 30px;
 	margin-left: 10px;
 	width: 40%;
@@ -3152,7 +3153,7 @@ ol {
 		margin: 0px;
 		margin-bottom: 30px;
 		margin-left: 10px;
-		width: 90%;
+		width: 30%;
 	}
 
 	.f-logo {
