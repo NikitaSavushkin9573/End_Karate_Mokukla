@@ -145,9 +145,7 @@ body {
 	margin-top: 15%;
 }
 body {
-    background: linear-gradient(-45deg, rgb(255, 91, 31),  #f19d5d7a, rgba(32, 31, 31, 0.551));
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
+    background-color: #000;
 }
 
 @keyframes gradient {
