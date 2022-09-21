@@ -2097,7 +2097,9 @@ ol {
 }
 
 .trainer-item .ti-pic img {
-	min-width: 100%;
+	min-width: 300px;
+	min-height: 400px;
+	max-width: 300px;
 }
 
 .trainer-item .ti-pic .ti-links {
