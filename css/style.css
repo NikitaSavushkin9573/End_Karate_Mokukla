@@ -2175,6 +2175,21 @@ ol {
 	bottom: 0;
 	background: -o-linear-gradient(45deg, #e16521, #e4381C);
 	background: linear-gradient(45deg, #e16521, #e4381C);
+	width: 63%;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 12px;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 81% 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 100% 0%, 81% 0, 100% 100%, 0 100%);
+}
+
+
+.trainer-item .ti-pic .trainer-text1 {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: -o-linear-gradient(45deg, #e16521, #e4381C);
+	background: linear-gradient(45deg, #e16521, #e4381C);
 	width: 75%;
 	padding-left: 20px;
 	padding-top: 15px;
