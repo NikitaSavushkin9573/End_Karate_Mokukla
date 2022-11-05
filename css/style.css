@@ -1944,7 +1944,7 @@ ol {
 -----------------------*/
 
 .aboutus-section {
-	
+	background: #0a0a0a;
 	padding-top: 90px;
 	padding-bottom: 80px;
 }
@@ -3728,13 +3728,14 @@ margin: 0px 0px 1em 0px;
 	}
 	
 	.box {
-		background: rgba(179, 178, 173, 0.329);
+		background: rgba(205, 205, 205, 0.5);
+		
 		border: 10px ;
-  border-radius: 0em;
-  border-top-right-radius: 10% 10%;
-  border-top-left-radius:10% 10% ;
-  border-end-start-radius:10% 10% ;
-  border-end-end-radius:10% 10% ;
+  border-radius: 1/em;
+  border-top-right-radius: 20% 20%;
+  border-top-left-radius:20% 20% ;
+  border-end-start-radius:20% 20% ;
+  border-end-end-radius:20% 20% ;
   
 	  }
 	.hide {
