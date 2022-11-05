@@ -258,7 +258,7 @@ ol {
 -----------------------*/
 
 .section-title h2 {
-	color: #ffffff;
+	color: #000000;
 	font-size: 48px;
 	font-weight: 600;
 	margin-bottom: 18px;
@@ -916,7 +916,7 @@ ol {
 .about-text h2 {
 	font-size: 48px;
 	font-weight: 500;
-	color: #ffffff;
+	color: #000000;
 	text-transform: uppercase;
 	margin-bottom: 36px;
 }
@@ -924,7 +924,7 @@ ol {
 .about-text p.short-details {
 	font-size: 20px;
 	font-weight: 600;
-	color: #ffffff;
+	color: #000000;
 	line-height: 28px;
 	margin-bottom: 20px;
 }
@@ -939,6 +939,7 @@ ol {
 }
 
 .about-img img {
+	padding-top: 120px;
 	min-width: 60%;
 	margin-left: 30px;
 }
