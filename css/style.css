@@ -18,7 +18,7 @@ font-family: 'Signika Negative';
     #f0ded1,
     #dec4a7
   );
-  background-size: 400% 400%;
+  background-size: 1000% 1000%;
   animation: gradient 15s ease infinite;
   height: 100vh;
 }
@@ -906,7 +906,7 @@ ol {
 -----------------------*/
 
 .home-about {
-	background: #151515;
+	
 }
 
 .about-text {
@@ -1424,7 +1424,7 @@ ol {
 -----------------------*/
 
 .blog-section {
-	background: #151515;
+	
 	padding-top: 90px;
 	padding-bottom: 66px;
 }
@@ -2077,7 +2077,7 @@ ol {
 -----------------------*/
 
 .trainer-section {
-	background: #151515;
+	 
 	padding-top: 90px;
 	padding-bottom: 70px;
 }
