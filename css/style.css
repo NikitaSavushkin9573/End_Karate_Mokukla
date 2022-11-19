@@ -131,7 +131,7 @@ font-family: 'Signika Negative';
 .belt{
 	width: 21%;
 	height: 37%;
-	margin-left: 40%;
+	margin-left: 67%;
 	margin-top: 0%;
 }
 body {
@@ -3118,6 +3118,68 @@ ol {
 		max-width: 1200px;
 	}
 }
+.emanueld {
+		
+	padding: 0%;
+	margin: -23%;
+	margin-left: -40%;
+	margin-top: -32%;
+	font-size: 15px;
+	
+	
+}
+
+.emanuel {
+	visibility: hidden;
+	padding: 0%;
+	margin: -23%;
+	margin-left: -40%;
+	text-size-adjust: 1px;
+}
+.emanuelyelow {
+	padding: 0%;
+	margin: -23%;
+	margin-left: -40%;
+	text-size-adjust: 1px;
+}
+.emanuelyelowd {
+	visibility: hidden;
+	padding: 0%;
+	margin: -23%;
+	margin-left: -65%;
+	text-size-adjust: 1px;
+}
+
+.kata {
+	
+	margin-left: 0% ;
+	margin-top: 1%;
+	padding-top: 1%;
+}
+
+.kata1 {
+	margin-left: 0% ;
+	padding-top: 1%;
+	margin-top: 1%;
+}
+.katad {
+ visibility: hidden;
+	margin-left: 0% ;
+	margin-top: 0%;
+	padding-top: 1%;
+}
+
+.kata1d {
+	margin-left: 15% ;
+	padding-top: 1%;
+	margin-top: 1%;
+}
+.belt{
+	width: 21%;
+	height: 37%;
+	margin-left: 67%;
+	margin-top: 0%;
+}
 .logo-dark {
     float: left;
     text-align: center;
@@ -3170,8 +3232,30 @@ ol {
 /* Medium Device : 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1000px) {
+	.emanuel {
+		padding: 0%;
+		margin: -23%;
+		margin-left: -50%;
+		
+	}
 
+	.kata {
+		margin-left: 15% ;
+		margin-top: 1%;
+		padding-top: 1%;
+	}
 
+	.kata1 {
+		margin-left: 15% ;
+		padding-top: 1%;
+		margin-top: 1%;
+	}
+	.belt{
+		width: 21%;
+		height: 37%;
+		margin-left: 67%;
+		margin-top: 0%;
+	}
 
 	.header-section {
 		padding-left: 0;
@@ -3229,6 +3313,31 @@ ol {
 /* Tablet Device : 768px */
 
 @media only screen and (min-width: 375px) and (max-width: 667px) {
+	.emanuel {
+		padding: 0%;
+		margin: -23%;
+		margin-left: -50%;
+		
+	}
+
+	.kata {
+		margin-left: 15% ;
+		margin-top: 1%;
+		padding-top: 1%;
+	}
+
+	.kata1 {
+		margin-left: 15% ;
+		padding-top: 1%;
+		margin-top: 1%;
+	}
+
+	.belt{
+		width: 21%;
+		height: 37%;
+		margin-left: 67%;
+		margin-top: 0%;
+	}
 	.header-section {
 		padding-left: 0;
 		padding-right: 0;
@@ -3324,8 +3433,31 @@ ol {
 /* Large Mobile : 480px */
 
 @media only screen and (max-width: 768px) {
+	.emanuel {
+		padding: 0%;
+		margin: -23%;
+		margin-left: -50%;
+		
+	}
 
+	.kata {
+		margin-left: 15% ;
+		margin-top: 1%;
+		padding-top: 1%;
+	}
 
+	.kata1 {
+		margin-left: 15% ;
+		padding-top: 1%;
+		margin-top: 1%;
+	}
+
+	.belt{
+		width: 21%;
+		height: 37%;
+		margin-left: 67%;
+		margin-top: 0%;
+	}
 
 	.trainer-item .ti-pic .trainer-text {
 		position: absolute;
@@ -3484,6 +3616,65 @@ ol {
 /* Small Mobile : 320px */
 
 @media only screen and (max-width: 479px) {
+	.emanueld{
+		
+		padding: 0%;
+		margin: -9%;
+		margin-left: -58%;
+		text-size-adjust: 1px;
+		
+	}
+	
+    .emanuel {
+	    
+		padding: 0%;
+		margin: -23%;
+		margin-left: -65%;
+		text-size-adjust: 1px;
+		
+		
+	}
+	.emanuelyelowd {
+		visibility: visible ;
+		padding: 0%;
+		margin: -23%;
+		margin-left: -65%;
+		text-size-adjust: 1px;
+	}
+	.emanuelyelow {
+		visibility: hidden;
+		padding: 0%;
+		margin: -23%;
+		margin-left: -65%;
+		text-size-adjust: 1px;
+	}
+
+	.kata {
+		visibility: hidden;
+		margin-left: 15% ;
+		margin-top: 1%;
+		padding-top: 1%;
+	}
+	.katad {
+		visibility: visible;
+		margin-left: 0% ;
+		margin-top: 1%;
+		padding-top: 1%;
+	}
+
+	.kata1 {
+		visibility: hidden;
+		margin-left: 15% ;
+		padding-top: 1%;
+		margin-top: 1%;
+	}
+
+	.belt{
+		width: 43%;
+		height: 21%;
+		margin-left: 29%;
+		margin-top: 0%;
+	}
 	.section-title h2,
 	.breadcrumb-text h2 {
 		font-size: 30px;
