@@ -3136,6 +3136,7 @@ ol {
 	margin-left: -40%;
 	text-size-adjust: 1px;
 }
+
 .emanuelyelow {
 	padding: 0%;
 	margin: -23%;
@@ -3150,15 +3151,65 @@ ol {
 	text-size-adjust: 1px;
 }
 
+.emanuelredd{
+	visibility: hidden;
+   padding: 0%;
+   margin: -23%;
+   margin-left: -65%;
+   text-size-adjust: 1px;
+}
+
+.emanuelred{
+	
+	padding: 0%;
+	margin: -23%;
+	margin-left: -40%;
+	margin-top: -32%;
+	font-size: 15px;
+}
+
+.emanuelgreend{
+	
+   padding: 0%;
+   margin: -23%;
+   margin-left: -40%;
+   text-size-adjust: 1px;
+}
+
+.emanuelgreen{
+	visibility: hidden;
+	padding: 0%;
+	margin: -23%;
+	margin-left: -65%;
+	margin-top: -32%;
+	font-size: 15px;
+}
+
+.emanuelblued{
+	
+   padding: 0%;
+   margin: -23%;
+   margin-left: -40%;
+   text-size-adjust: 1px;
+}
+
+.emanuelblue{
+	visibility: hidden;
+	padding: 0%;
+	margin: -23%;
+	margin-left: -65%;
+	margin-top: -32%;
+	font-size: 15px;
+}
 .kata {
 	
-	margin-left: 0% ;
+	margin-left: -40% ;
 	margin-top: 1%;
 	padding-top: 1%;
 }
 
 .kata1 {
-	margin-left: 0% ;
+	margin-left: -40% ;
 	padding-top: 1%;
 	margin-top: 1%;
 }
@@ -3649,6 +3700,55 @@ ol {
 		text-size-adjust: 1px;
 	}
 
+	.emanuelredd{
+		visibility: hidden;
+	   padding: 0%;
+	   margin: -23%;
+	   margin-left: -65%;
+	   text-size-adjust: 1px;
+	}
+	
+	.emanuelred{
+		
+		padding: 0%;
+		margin: -23%;
+		margin-left: -65%;
+		margin-top: -32%;
+		font-size: 15px;
+	}
+	.emanuelgreend{
+		visibility: hidden;
+	   padding: 0%;
+	   margin: -23%;
+	   margin-left: -65%;
+	   text-size-adjust: 1px;
+	}
+	
+	.emanuelgreen{
+		visibility: visible;
+		padding: 0%;
+		margin: -23%;
+		margin-left: -65%;
+		margin-top: -32%;
+		font-size: 15px;
+	}
+
+	.emanuelblued{
+		visibility: hidden;
+	   padding: 0%;
+	   margin: -23%;
+	   margin-left: -65%;
+	   text-size-adjust: 1px;
+	}
+	
+	.emanuelblue{
+		visibility: visible;
+		padding: 0%;
+		margin: -23%;
+		margin-left: -65%;
+		margin-top: -32%;
+		font-size: 15px;
+	}
 	.kata {
 		visibility: hidden;
 		margin-left: 15% ;
