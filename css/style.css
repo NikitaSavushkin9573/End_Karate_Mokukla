@@ -927,6 +927,7 @@ ol {
 	color: #000000;
 	line-height: 28px;
 	margin-bottom: 20px;
+	margin: 0%;
 }
 
 .about-text p.long-details {
@@ -4033,4 +4034,11 @@ margin: 0px 0px 1em 0px;
     visibility: hidden;
 	}
 	  
-	
+	.hider-section-dirdaz {
+		background-color: #000000;
+		padding: 75px 0px;
+	}
+
+	.center {
+		align-items: center ;
+	}
